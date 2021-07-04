@@ -63,3 +63,12 @@ import 'zone.js';  // Included with Angular CLI.
 /***************************************************************************************************
  * APPLICATION IMPORTS
  */
+
+/***************************************************************************************************
+ * AWS-SDK
+ */
+ if (typeof (window as any).global === 'undefined') {
+  (window as any).global = window;
+}
+
+// (window as any).global.util = (window as any).global.util || require("util").util;
